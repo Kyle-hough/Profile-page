@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+.nav{
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    color: white;
+    font-family: 'Roboto' , sans-serif;
+    height: 50px;
+}
+.nav-title {
+    font-size: 10;
+    margin: 20px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+li {
+    margin-left: 10px;
+}
+.blank-col{
+    flex: 1;
+    background-color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    margin: 10px;
+    list-style: none;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: #17a2b8 ;
+    color: #ebf6f9;
+    box-shadow: 2px 2px black;
+    margin: 20px;
+    
+}
+.flex-container{
+    background-color: lightgray;
+    width: auto;
+    height: auto ;
+    display: flex;
+    
+}
+.col {
+    flex: 2;
+    background-color: lightgray;
+    margin: 20px;    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.user-card {
+    background-color: white;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.card-header{
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.card-body{
+    padding: 10px;
+}
+.card-body h1,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+.user-circle{
+    border-radius: 50%;
+    background-color: white;
+    height: 150px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.marker{
+    height: 20px;
+    width: 15px;
+}
+.icon-s{
+    height: 20px;
+}
+
+.education-card{
+    background-color: white;
+    border: 2px solid #999;
+    font-size: 1.2rem;
+    font-family: 'Roboto' , sans-serif;
+}
+.education-header {
+    background-color: #333333;
+    height: 75px;
+    margin-bottom: 10px;
+    color: white;
+}
+.education-body{
+    padding: 10px;
+}
+.education-body h3,
+.education-body p {
+    margin: 20px 0px;
+}
+
+.col-1{
+    flex: 1;
+    background-color: lightgray;
+    margin: 20px;    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.request{
+    background-color: white;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.request-header{
+    background-color: #333333;
+    height: 75px;
+    margin-bottom: 10px;
+    color: white;
+}
+.request-body{
+    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.request-circle {
+    height: 75px;
+}
+.accept-circle,
+.close-circle {
+    height: 50px;
+}
+
+.connections{
+    background-color: white;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.connections-header{
+    background-color: #333333;
+    height: 75px;
+    margin-bottom: 10px;
+    color: white;
+}
+.connections-body{
+    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: left;
+}
+.connection-circle{
+    height: 75px;
+}
+.connections-end{
+    border-top: 2px solid #999;
+}
